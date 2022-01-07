@@ -1,6 +1,36 @@
+.header {
+  background-image: url(../images/bg-header.jpg);
+  height: 20vh;
+}
+
+.header__title {
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.row {
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.col {
+  margin: auto;
+}
+
 .main__main-content-img-block {
   display: flex;
+  flex-wrap: wrap;
 }
+
+.main-content__img-frapper {
+  flex:0 0 300px;
+  width: 300px;
+}
+
+.main__main-content-text-block {
+  flex:1 1 500px;
+}
+
 
 
 .img-frapper__image {
