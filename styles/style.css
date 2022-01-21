@@ -113,9 +113,9 @@ body {
 }
 
 
-/* .main-content__img-frapper:hover span{
+.main-content__img-frapper:hover span{
   visibility: visible;
-} */
+}
 
 .popup-container__popup-img {
   width: 50vw;
