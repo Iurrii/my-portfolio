@@ -15,6 +15,14 @@
 </head>
 
 <body>
+  <div class="b-popup">
+    <figure class="b-popup-content">
+      <img class="b-popup-content__img" src="" alt="">
+      <figcaption class="b-popup-content__text"></figcaption>
+    </figure>
+
+  </div>
+
   <div class="header">
     <h1 class="header__title">Портфолио фронтенд разработчика <br> Тёщина Юрия</h1>
     <!-- <nav class="header__nav">
@@ -22,29 +30,23 @@
     </nav> -->
   </div>
   <p>*Сайт находится в разработке</p>
-  <!-- <div class="b-popup">
-    <div class="b-popup-content"></div>
-  </div> -->
+
 
 
   <main class="main">
 
     <div class="annotation">
-      <p>В данный момент накопилось несколько проектов "в стол", и чтобы не 
+      <p>В данный момент накопилось несколько проектов "в стол", и чтобы не
         прикреплять к резюме пачку ссылок, сделал этот сайт-каталог со своими проектами
       </p>
     </div>
 
     <div class="row">
-      <section class="main__main-content-img-block card col col-lg-10 col-md-4 col-sm-10">
+      <section class="main__main-content-img-block card col col-xlg-10 col-lg-4 col-md-5 col-sm-10">
 
         <figure class="main-content__img-frapper">
-          <img class="img-frapper__image" src="./images/Screenshot 2022-01-04 at 19-37-14 Clock Weather Widget.png"
-            alt="preview">
-          <span class="img-frapper__popup-container">
-            <img class="popup-container__popup-img"
-              src="./images/Screenshot 2022-01-04 at 19-37-14 Clock Weather Widget.png" alt="">
-          </span>
+          <img class="img-frapper__image" id="01"
+            src="./images/Screenshot 2022-01-04 at 19-37-14 Clock Weather Widget.png" alt="preview">
           <figcaption class="img-frapper__img-description"></figcaption>
         </figure>
 
@@ -54,10 +56,10 @@
             </h3>
           </div>
           <a href="https://github.com/Iurrii/clock-weather-widget">Репозиторий</a>
-          <p class="main-content__text">HTML, CSS, JS, API. </br>
+          <p class="main-content__text">HTML, CSS, JS, API, HTML-in-JS. </br>
             Отработка навыков работы с API+Json данными - асинхронный запрос,
             получение ответа, вставка полученных данных на страницу.
-            Использование паттерна HTML-in-JS. Анимация fontawesome. Работа с Object.Date и
+            Анимация fontawesome. Работа с Object.Date и
             часовым поясом активного устройства. Для почти каждого ЧП город по умолчанию из
             соответствующего ЧП.
 
@@ -68,15 +70,11 @@
 
 
 
-      <section class="main__main-content-img-block card col col-lg-10 col-md-4 col-sm-10">
+      <section class="main__main-content-img-block card col col-xlg-10 col-lg-4 col-md-5 col-sm-10">
 
         <figure class="main-content__img-frapper">
-          <img class="img-frapper__image" src="./images/Screenshot 2022-01-04 at 21-00-02 JS (pure) calculator.png"
-            alt="preview">
-          <span class="img-frapper__popup-container">
-            <img class="popup-container__popup-img"
-              src="./images/Screenshot 2022-01-04 at 21-00-02 JS (pure) calculator.png" alt="">
-          </span>
+          <img class="img-frapper__image" id="02"
+            src="./images/Screenshot 2022-01-04 at 21-00-02 JS (pure) calculator.png" alt="preview">
           <figcaption class="img-frapper__img-description"></figcaption>
         </figure>
 
@@ -87,22 +85,18 @@
           </div>
           <p class="main-content__text">HTML, CSS, JS. </br>
             Простой калькулятор на чистом JS. Работает на 3х переменных, поддерживает каскадные операции типа, "а+б-с".
-            Иконки fontawesome, grid вёрстка.
+            Использование сторонних иконок и шрифтов (fontawesome, a_LCDNova), grid вёрстка. Уникальный дизайн.
           </p>
         </article>
 
       </section>
 
 
-      <section class="main__main-content-img-block card col col-lg-10 col-md-4 col-sm-10">
+      <section class="main__main-content-img-block card col col-xlg-10 col-lg-4 col-md-5 col-sm-10">
 
         <figure class="main-content__img-frapper">
-          <img class="img-frapper__image" src="./images/Screenshot 2022-01-21 at 16-50-20 Курсы валют.png"
+          <img class="img-frapper__image" id="03" src="./images/Screenshot 2022-01-21 at 16-50-20 Курсы валют.png"
             alt="preview">
-          <span class="img-frapper__popup-container">
-            <img class="popup-container__popup-img" src="./images/Screenshot 2022-01-21 at 16-50-20 Курсы валют.png"
-              alt="">
-          </span>
           <figcaption class="img-frapper__img-description"></figcaption>
         </figure>
 
@@ -122,15 +116,12 @@
       </section>
 
 
-      <section class="main__main-content-img-block card col col-lg-10 col-md-4 col-sm-10">
+      <section class="main__main-content-img-block card col col-xlg-10 col-lg-4 col-md-5 col-sm-10">
 
         <figure class="main-content__img-frapper">
-          <img class="img-frapper__image" src="./images/Screenshot 2022-01-12 at 21-55-44 React App.png" alt="preview">
+          <img class="img-frapper__image" id="04" src="./images/Screenshot 2022-01-12 at 21-55-44 React App.png"
+            alt="preview">
           <figcaption class="img-frapper__img-description"></figcaption>
-          <span class="img-frapper__popup-container">
-            <img class="popup-container__popup-img" src="./images/Screenshot 2022-01-12 at 21-55-44 React App.png"
-              alt="">
-          </span>
         </figure>
 
         <article class="main__main-content-text-block">
@@ -139,23 +130,19 @@
                 (React)</a></h3>
           </div>
           <p class="main-content__text">HTML, CSS, JS, React, localStorage.<br>
-            "Крестики-нолики" на двух игроков. Использование localStorage как хранилище для счёта побед. Опция выбора
-            стартового символа.
+            "Крестики-нолики" на двух игроков. Использование localStorage для хранения счёта побед. Опция выбора
+            стартового символа, обнуление счётчика побед. 
           </p>
         </article>
 
       </section>
 
 
-      <section class="main__main-content-img-block card col col-lg-10 col-md-4 col-sm-10">
+      <section class="main__main-content-img-block card col col-xlg-10 col-lg-4 col-md-5 col-sm-10">
 
         <figure class="main-content__img-frapper">
-          <img class="img-frapper__image" src="./images/Screenshot 2022-01-04 at 21-12-24 Plarson task-1.png"
+          <img class="img-frapper__image" id="05" src="./images/Screenshot 2022-01-04 at 21-12-24 Plarson task-1.png"
             alt="preview">
-          <span class="img-frapper__popup-container">
-            <img class="popup-container__popup-img" src="./images/Screenshot 2022-01-04 at 21-12-24 Plarson task-1.png"
-              alt="">
-          </span>
           <figcaption class="img-frapper__img-description"></figcaption>
         </figure>
 
@@ -173,15 +160,11 @@
 
       </section>
 
-      <section class="main__main-content-img-block card col col-lg-10 col-md-4 col-sm-10">
+      <section class="main__main-content-img-block card col col-xlg-10 col-lg-4 col-md-5 col-sm-10">
 
         <figure class="main-content__img-frapper">
-          <img class="img-frapper__image" src="./images/Screenshot 2022-01-10 at 16-55-34 Iurii on CodePen.png"
+          <img class="img-frapper__image" id="06" src="./images/Screenshot 2022-01-10 at 16-55-34 Iurii on CodePen.png"
             alt="preview">
-          <span class="img-frapper__popup-container">
-            <img class="popup-container__popup-img"
-              src="./images/Screenshot 2022-01-10 at 16-55-34 Iurii on CodePen.png" alt="">
-          </span>
           <figcaption class="img-frapper__img-description"></figcaption>
         </figure>
 
@@ -219,7 +202,7 @@
 
 
 
-  <!-- <script src="script.js"></script> -->
+  <script src="script.js"></script>
 </body>
 
 </html>
