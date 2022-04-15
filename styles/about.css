@@ -1,0 +1,129 @@
+.about {}
+
+.about__body {
+  display: flex;
+  flex-direction: column;
+  padding: 7% 4%;
+}
+
+
+.about__image-container {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 7%;
+}
+
+.about__image-container>img {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.about__content {
+  /* border: 1px solid brown; */
+}
+
+.about__title {
+  font-size: calc(30px + (10 + 10 * 0.7) * ((100vw - 320px) / 1600));
+  font-weight: 400;
+  font-family: 'Russo One', sans-serif;
+  color: #212353;
+  font-style: normal;
+  line-height: 130%;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+
+.about__text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4B5D68;
+  font-style: normal;
+  line-height: 120%;
+}
+
+@media screen and (min-width:576px) {
+  .about__body {
+    flex-direction: row;
+  }
+
+  .about__image-container {
+    height: 300px;
+    flex: 0 0 300px;
+    align-items: center;
+    margin: 0 4% 0 0;
+  }
+
+  .about__image-container>img {}
+
+  .about__content {
+    flex: 2 1 60%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .about__text {
+    line-height: 140%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about__body {
+    flex-direction: row;
+    gap: 5%;
+  }
+
+  .about__image-container {
+    flex-shrink: 1;
+    max-width: 469px;
+    max-height: 496px;
+  }
+
+  .about__content {
+    flex-shrink: 2;
+  }
+
+  .about__text {
+    line-height: 160%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .about {
+    /* max-height: 560px; */
+  }
+
+  .about__body {
+    padding: 5% 4%;
+  }
+
+  .about__image-container {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    max-width: 300px;
+    flex: 1 1 auto;
+  }
+
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    flex: 1 1 auto;
+  }
+
+  .about__text {
+    line-height: 160%;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .about {
+    max-height: 560px;
+    margin-bottom: 150px;
+  }
+}
