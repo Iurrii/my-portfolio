@@ -1,6 +1,6 @@
 mobile-first
 <br>//
-==== брейкпоинты ====
+====breakpoints====
 <br>
 "<576px X<br>
 ">=576px Х<br>
